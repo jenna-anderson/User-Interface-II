@@ -55,6 +55,7 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
 }
 h1 {
     font-size: 5.5rem;
@@ -93,6 +94,7 @@ h2 {
 }
 .top p {
     width: 80%;
+    font-family: 'Crimson Text', serif;
 }
 
 /* empty section for background image */
