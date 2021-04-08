@@ -59,15 +59,22 @@ body {
 h1 {
     font-size: 5.5rem;
 }
+section{
+    padding: 2% 0;
+}
 
 
+* {
+    background-color: #F5F6F4;
+}
 /* top */
 .top {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 40vh;
+    padding: 2% 0;
+ 
 }
 .top nav {
     width: 40%;
@@ -122,4 +129,20 @@ h2 {
 .text p {
     width: 80%;
     
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    background-color: #819595;
+}
+button{
+    background-color: #B1B6A6;
+    padding: 2% 4%;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
