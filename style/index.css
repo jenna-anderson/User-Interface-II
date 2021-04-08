@@ -57,9 +57,11 @@ body {
     line-height: 1.5;
     font-family: 'PT Sans', sans-serif;
     color: #2f2f2f;
+    letter-spacing: 2;
 }
 h1 {
-    font-size: 5.5rem;
+    font-size: 7rem;
+    text-transform: uppercase;
 }
 section{
     padding: 2% 0;
@@ -101,6 +103,7 @@ section{
 
 h2 {
     font-size: 3rem;
+    text-transform: uppercase;
 }
 .top p {
     width: 80%;
@@ -135,8 +138,12 @@ h2 {
 .text  {
     width: 25%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+}
+button.my-projects {
+    padding: 4% 8%;
 }
 
 .text p {
@@ -165,6 +172,7 @@ button{
 button:hover{
     background-color: #F5F6F4;
     color: #B1B6A6;
+    border: 1px solid #B1B6A6;
 }
 .social-media{
     background-color: #819595;
