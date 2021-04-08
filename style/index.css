@@ -138,16 +138,45 @@ h2 {
 /* footer */
 footer {
     display: flex;
-    justify-content: center;
-    padding: 4%;
+    padding: 2% 0 0 0;
     background-color: #819595;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 button{
     background-color: #B1B6A6;
-    padding: 2% 4%;
+    padding: 1.5% 3%;
     font-size: 1.8rem;
     border: none;
-    border-radius: 10px;
     color: white;
     cursor: pointer;
+}
+.social-media{
+    background-color: #819595;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.fa {
+    padding: 2%;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github {
+    background-color: black;
+    color: white;
+
 }
