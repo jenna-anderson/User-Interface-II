@@ -115,12 +115,10 @@ h2 {
 .text  {
     width: 25%;
     display: flex;
-}
-.text2 {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .text p {
     width: 80%;
     
