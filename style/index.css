@@ -95,6 +95,7 @@ h2 {
 .top p {
     width: 80%;
     font-family: 'Crimson Text', serif;
+    font-size: 1.7rem;;
 }
 
 /* empty section for background image */
@@ -130,7 +131,8 @@ h2 {
 
 .text p {
     width: 80%;
-    
+    font-family: 'Crimson Text', serif;
+    font-size: 1.8rem;
 }
 
 /* footer */
@@ -147,4 +149,5 @@ button{
     border: none;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
 }
