@@ -1,1 +1,206 @@
 /* Add CSS styling here */
+
+/* reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+    }
+
+/* general styles */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
+    color: #2f2f2f;
+    letter-spacing: 2;
+}
+h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+section{
+    padding: 2% 0;
+}
+
+
+* {
+    background-color: #F5F6F4;
+}
+/* top */
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 0;
+    height: 45vh;
+}
+.top nav {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.top nav a {
+    background-color: #A5B6B6;
+    text-decoration: none;
+    color: white;
+    padding: 1% 5%;
+    font-size: 1.8rem;
+    border: 1px solid #657B7B;
+    border-right: none;
+}
+.top nav a:last-child{
+    border-right: 1px solid #657B7B;
+}
+.top nav a:hover {
+    background-color: #819595;
+}
+
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.top p {
+    width: 80%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.7rem;;
+}
+
+/* empty section for background image */
+.hero-image {
+    background-image: url('https://images.unsplash.com/photo-1468421870903-4df1664ac249?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80');
+    height: 40ch;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* project section */
+.projects {
+    display: flex;
+   
+}
+.project-images{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.project-images img {
+    width: 23%;
+}
+.text  {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button.my-projects {
+    padding: 4% 8%;
+}
+
+.text p {
+    width: 80%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.8rem;
+}
+
+/* footer */
+footer {
+    display: flex;
+    padding: 2% 0 0 0;
+    background-color: #819595;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+button{
+    background-color: #B1B6A6;
+    padding: 1% 3%;
+    font-size: 1.8rem;
+    border: none;
+    color: #F5F6F4;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F5F6F4;
+    color: #B1B6A6;
+    border: 1px solid #B1B6A6;
+}
+.social-media{
+    background-color: #819595;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    margin: 1% 0 0 0;
+}
+.fa {
+    padding: 2%;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github {
+    background-color: black;
+    color: white;
+}
