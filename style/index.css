@@ -119,9 +119,8 @@ h2 {
     height: 40vh;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    background-origin: content-box;
+    background-size: cover;
 }
 
 /* project section */
@@ -211,7 +210,7 @@ button:hover{
 /* responsive design styles */
 /* phone */
 @media(max-width: 500px){
-
+    /* header */
     .top nav {
         flex-direction: column;
     }
@@ -226,6 +225,11 @@ button:hover{
     .top p {
         width: 80%;
         text-align: center;
+    }
+    /* empty section for background image */
+    .hero-image {
+        background-size: 90% auto;
+        background-attachment: local;
     }
 }
 /* tablet */
