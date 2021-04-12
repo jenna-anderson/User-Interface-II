@@ -45,7 +45,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     }
 
 /* general styles */
@@ -56,7 +56,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'PT Sans', sans-serif;
-    color: #2f2f2f;
+    color: #4f4f4f;
     letter-spacing: 2;
 }
 h1 {
@@ -66,7 +66,6 @@ h1 {
 section{
     padding: 2% 0;
 }
-
 
 * {
     background-color: #F5F6F4;
@@ -100,15 +99,19 @@ section{
     background-color: #819595;
 }
 
+h1, h2, p {
+    text-align: center;
+}
+
 h2 {
     font-size: 3rem;
     text-transform: uppercase;
-    padding-bottom 2%;
+    padding-bottom: 1%;
 }
 .top p {
     width: 80%;
     font-family: 'Crimson Text', serif;
-    font-size: 1.7rem;;
+    font-size: 1.7rem;
 }
 
 /* empty section for background image */
@@ -149,7 +152,7 @@ h2 {
 
 button.my-projects {
     padding: 4% 8%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .text p {
@@ -177,7 +180,7 @@ button{
 }
 button:hover{
     background-color: #F5F6F4;
-    color: #B1B6A6;
+    color: #819595;
     border: 1px solid #B1B6A6;
 }
 .social-media{
@@ -223,12 +226,10 @@ button:hover{
     }
     .top h2 {
         width: 90%;
-        text-align: center;
         padding: 3% 0;
     }
     .top p {
         width: 80%;
-        text-align: center;
     }
     /* empty section for background image */
     .hero-image {
@@ -269,11 +270,16 @@ button:hover{
 }
 /* tablet */
 @media(max-width: 800px) {
-    .top p {
-        text-align: center;
-    }
+
     .projects .text p {
         font-size: 1.6rem;
-        text-align: center;
     }
+}
+
+/* widescreen */
+@media(min-width: 1920px) {
+    .projects .text p, .top p { 
+        font-size: 2.5rem;
+    }
+    
 }
