@@ -75,15 +75,14 @@ section{
 .top {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    padding: 1% 0;
-    height: 45vh;
+    padding: 5% 0;
 }
 .top nav {
     width: 40%;
     display: flex;
     justify-content: center;
+    padding: 2% 0;
 }
 .top nav a {
     background-color: #A5B6B6;
@@ -104,6 +103,7 @@ section{
 h2 {
     font-size: 3rem;
     text-transform: uppercase;
+    padding-bottom 2%;
 }
 .top p {
     width: 80%;
@@ -209,11 +209,26 @@ button:hover{
 }
 
 /* responsive design styles */
-
+/* phone */
 @media(max-width: 500px){
 
+    .top nav {
+        flex-direction: column;
+    }
+    .top nav a{
+        text-align: center;
+    }
+    .top h2 {
+        width: 90%;
+        text-align: center;
+        padding: 3% 0;
+    }
+    .top p {
+        width: 80%;
+        text-align: center;
+    }
 }
-
+/* tablet */
 @media(max-width: 800px) {
 
 }
